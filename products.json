@@ -1,0 +1,44 @@
+[
+  {
+    "partNumber": "CF2450-100",
+    "type": "Cavity Bandpass",
+    "centerFrequency": 2450,
+    "bandwidth": 100,
+    "technology": "Coaxial Cavity",
+    "insertionLoss": 0.8,
+    "returnLoss": 20,
+    "power": 100,
+    "connector": "SMA Female",
+    "size": "120 × 45 × 25 mm",
+    "datasheet": "datasheets/cavity.pdf",
+    "image": "assets/img/cavity-filter-01.webp"
+  },
+  {
+    "partNumber": "IDF5800-250",
+    "type": "Interdigital",
+    "centerFrequency": 5800,
+    "bandwidth": 250,
+    "technology": "",
+    "insertionLoss": 1.1,
+    "returnLoss": 18,
+    "power": 30,
+    "connector": "SMA Female",
+    "size": "",
+    "datasheet": "datasheets/cavity.pdf",
+    "image": "assets/img/interdigital-01.webp"
+  },
+  {
+    "partNumber": "CL900-40",
+    "type": "Combline",
+    "centerFrequency": 900,
+    "bandwidth": 40,
+    "technology": "",
+    "insertionLoss": 0.6,
+    "returnLoss": 22,
+    "power": 250,
+    "connector": "N Female",
+    "size": "",
+    "datasheet": "datasheets/cavity.pdf",
+    "image": "assets/img/combline-01.webp"
+  }
+]
