@@ -2,7 +2,7 @@
   {
     "partNumber": "CF2450-100",
     "type": "Cavity Bandpass",
-    "centerFrequency": 2450,
+    "centerFrequency": "2450-3000",
     "bandwidth": 100,
     "technology": "Coaxial Cavity",
     "insertionLoss": 0.8,

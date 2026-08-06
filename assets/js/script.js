@@ -188,6 +188,7 @@ function enableDarkMode() {
   document.documentElement.style.setProperty("--background", "#111827");
   document.documentElement.style.setProperty("--surface", "#1F2937");
   document.documentElement.style.setProperty("--text", "#F3F4F6");
+  document.documentElement.style.setProperty("--secondary", "#F3F4F6");
   document.documentElement.style.setProperty("--textLight", "#C7CBD1");
   document.documentElement.style.setProperty("--border", "#374151");
 
@@ -206,7 +207,8 @@ function disableDarkMode() {
   document.documentElement.style.setProperty("--background", "#F4F7FA");
   document.documentElement.style.setProperty("--surface", "#FFFFFF");
   document.documentElement.style.setProperty("--text", "#222");
-  document.documentElement.style.setProperty("--textLight", "#666");
+  document.documentElement.style.setProperty("--secondary", "#1f2937");
+  document.documentElement.style.setProperty("--textLight", "#444");
   document.documentElement.style.setProperty("--border", "#E5E7EB");
 
   document.querySelectorAll(".card,.feature").forEach((card) => {

@@ -12,7 +12,7 @@
   --surface: #ffffff;
 
   --text: #222222;
-  --textLight: #666666;
+  --textLight: #444;
 
   --border: #e5e7eb;
 
@@ -114,7 +114,7 @@ nav ul {
 nav a {
   text-decoration: none;
 
-  color: #444;
+  color: var(--textLight);
 
   font-weight: 500;
 
@@ -266,6 +266,9 @@ section h2 {
   color: var(--secondary);
 }
 
+.feature p {
+  color: var(--textLight);
+}
 /* ========================== */
 
 footer {
